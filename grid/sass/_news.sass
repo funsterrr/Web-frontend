@@ -1,0 +1,62 @@
+section#blog
+	padding-top: 100px
+	padding-bottom: 100px
+	.header-blog
+		display: flex
+		align-items: center
+		justify-content: space-between
+		h2
+			font-family: "Open Sans"
+			font-style: normal
+			font-weight: 700
+			line-height: 44px
+			font-size: 34px
+			color: #000000
+		.button_for-slider
+			button
+				background-color: transparent
+				border: none
+				&:first-of-type
+					margin-right: 25px
+	.news_section
+		display: grid
+		grid-template-columns: 2fr 2fr 2fr
+		grid-gap: 30px
+		.news
+			display: flex
+			flex-direction: column
+		.active
+			display: block
+			p
+				font-family: "Open Sans"
+				font-style: normal
+				font-weight: normal
+				line-height: 26px
+				font-size: 16px
+				color: #525252
+				&:first-of-type
+					font-family: "Open Sans"
+					font-style: normal
+					font-weight: 600
+					line-height: 28px
+					font-size: 18px
+					color: #000000
+		.show_lg
+			display: none
+	.show_more_news
+		display: none
+	.news_section
+		display: none
+	.elipse_for-slider
+			display: flex
+			align-items: center
+			justify-content: center
+			button
+				width: 15px
+				height: 15px
+				margin-right: 10px
+				border-radius: 7px
+				background-color: #DCDCDC
+				border: none
+			.active
+				background-color: #3F46AD
