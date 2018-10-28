@@ -1,0 +1,60 @@
+section#about_company
+	padding-top: 100px
+	padding-bottom: 100px
+	.container
+		display: grid
+		grid-template-columns: 3fr 3fr
+		grid-column-gap: 100px
+		grid-template-rows: 2fr
+	.information
+		display: flex
+		flex-direction: column
+		justify-content: center
+		h2
+			font-family: "Open Sans"
+			font-style: normal
+			font-weight: 700
+			line-height: 42px
+			font-size: 34px
+			color: #000000
+		p 
+			font-family: "Open Sans"
+			font-style: normal
+			font-weight: 400
+			line-height: 26px
+			font-size: 16px
+			color: #525252
+		button
+			font-family: "Open Sans"
+			font-style: normal
+			font-weight: 700
+			line-height: normal
+			font-size: 14px
+			letter-spacing: -0.25px
+			text-transform: uppercase
+			color: #FFFFFF
+			background: #3F46AD
+			border-radius: 4px
+			border: none
+			padding: 18px 40px
+			width: 269px
+	.people_present
+		display: flex
+		overflow: hidden
+		position: relative
+		.people_slide
+			display: none
+		.active
+			display: flex
+			width: 100%
+		.button_for-slider
+			position: absolute
+			right: 0
+			bottom: 0
+			button
+				padding: 15px
+				border-radius: 4px
+				background-color: #ffffff
+				border: none
+	.show_xs,.show_xs_p
+		display: none
